@@ -18,9 +18,7 @@
     <div class="product__upper">
         <div class="product__upper-text">
             <h2 class="product__upper-text--title">商品一覧</h2>
-            <div class="product__upper-text--register">
-                <a href="/product/register">+商品を追加</a>
-            </div>
+            <a href="/product/register" class="product__upper-text--register">+商品を追加</a>
         </div>
     </div>
 
@@ -36,7 +34,7 @@
                     <input type="hidden" name="sort" value="{{ request('sort') }}">
                 @endif
                 <div>
-                    <input type="submit" value="検索">
+                    <input type="submit" value="検索" class="product__side-search--button">
                 </div>
             </form>
         </div>
@@ -79,7 +77,7 @@
                     <img src="{{ asset( $product->image ) }}" alt="fruit">
                     <div class="product__fruit--text">
                         <p>{{$product -> name}}</p>
-                        <p>{{$product -> price}}</p>
+                        <p>￥{{$product -> price}}</p>
                     </div>
                 </a>
                 </label>

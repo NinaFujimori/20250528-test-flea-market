@@ -1,11 +1,6 @@
-.register{
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 2fr 6fr 2fr;
-}
+
 .register__main{
-    grid-column: 2/3;
-    grid-row: 1/2;
+    margin:0% 20%;
 }
 
 .register__text{

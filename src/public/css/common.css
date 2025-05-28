@@ -6,7 +6,7 @@ body {
 /* ヘッダー */
 .header{
     padding:10px;
-    height:30px;
+    height:25px;
 }
 .header h1{
     color:#F7D22F;
@@ -14,5 +14,6 @@ body {
 }
 
 .content{
+    height: 10000px;
     background-color: #F8F8F8;
 }
