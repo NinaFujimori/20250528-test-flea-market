@@ -1,0 +1,31 @@
+.register{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 2fr 6fr 2fr;
+}
+.register__main{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.register__text{
+    display: flex;
+    flex-direction: row;
+}
+
+.register__text--required-back{
+    background-color: red;
+    display:inline-block;
+}
+.register__text--required-back p {
+    color:#ffffff;
+}
+
+.register__error{
+    color:red;
+}
+
+.register__seasons{
+    display: flex;
+    flex-direction: row;
+}
